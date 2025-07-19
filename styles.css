@@ -1,0 +1,110 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero{
+    background-color: #1F2937;
+}
+header{
+    font-size: 24px;
+    color: #F9FAF8;
+    display:flex;
+    align-items: center;
+    margin-left: 15%;
+}
+.info{
+    margin-left: 15%;
+    display:flex;
+}
+.more-info{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+}
+.buy{
+    padding:3px;
+    width:100px;
+    border: 0px;
+    color:white;
+    border-radius: 7px;
+}
+.right-links{
+    display:flex;
+    justify-content: flex-end;
+    flex:1;
+    gap:25px;
+    margin-right: 40px;
+    
+}
+.awesome{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+}
+.secondary{
+    font-size:18px;
+    color:#E5E7EB;
+}
+button, .cta {
+    background-color: #3882F6;
+}
+.infor{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-left: 15%;
+    text-align: center;
+    margin-right: 15%;
+}
+.quote{
+    background-color: #E5E7EB;
+    padding:10% 15% 10% 15%;
+}
+.msg{
+    font-size:36px;
+    font-style:italic;
+    font-weight: light;
+    color:#1F2937;
+}
+.ceo{
+    text-align: right;
+}
+.items{
+    display:flex;
+    flex-direction: column;
+    margin:30px;
+    color:#1F2937;
+}
+.image{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+.usp{
+    margin-left: 15%;
+    display:flex;
+    margin-right:15%
+}
+.cta{
+    margin:5% 15%;
+    padding:2% 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    justify-self: flex-start;
+}
+.sign2{
+    border-style: solid;
+    border-color:white;
+    color:white;
+    width:100px;
+    height:30px;
+    align-self: center;
+}
